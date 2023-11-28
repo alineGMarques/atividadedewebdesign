@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    background-image: url(./public/papel.jpg);
+}
+.container{
+   background: white;
+   width: 600px;
+   margin: 50px 50px 50px 50px;
+   margin-left: 350px;
+   padding-right: 10px;
+
+   
+}
+h1{
+    color: #8a1c13;
+  
+    padding: 10px;
+}
+.titulo{
+    color: #8a1c13;
+    margin: 20px;
+}
+.introducao{
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.topo img {
+  width: 45vw;
+  padding-left: 20px;
+  height: 50vh;
+}
+ol {
+    padding-left: 20px;
+        margin-left: 10px;    
+}
+li{
+    border-bottom: 1px solid #000;
+}
+
+ .item-1{
+background-color:#12418a;
+display: inline;
+padding: 7px;
+color: white;
+font-size: 12px;
+}
+.item-2{
+    background-color:#8a1456;
+    display: inline-block;
+    padding: 7px;
+    color: white;
+    font-size: 12px;
+    }
+    .item-3{
+        background-color:#148a39;
+        display: inline-block;
+        padding: 7px;
+        color: white;
+        font-size: 12px;
+        }
+        .item-4{
+            background-color: #8a1c13;
+            display: inline-block;
+            padding: 7px;
+            color: white;
+            font-size: 12px;
+            }
+
+.lista{
+    padding: 20px;
+text-align: center;
+}
+.imagem-topo-esquerda {
+    
+    display: inline-block;
+    position: absolute;
+    bottom: -350px;
+ 
+}
+.imagem-topo-direita{
+    display: inline-block;
+    padding-left: 1000px;
+  position: absolute;
+  bottom: -350px;
+
+}
+.imagem-inferior-esquerda{
+  top: 2px;
+  position: absolute;
+  
+}
+.imagem-inferior-direita {
+    position: absolute;
+    padding-left: 1000px;
+    top: 2px;
+   
+}
